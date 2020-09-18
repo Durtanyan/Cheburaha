@@ -76,10 +76,10 @@ list_slide = [slide1, slide2]
 
 cicle = 0
 while cicle <= 4:
-  print(cicle)
   for i in list_slide:
     os.system('cls')
     print(i, end='\r')
+    print(cicle)
     time.sleep(1)
   cicle += 1
 
